@@ -1,0 +1,4 @@
+Header unset Content-Security-Policy
+Header set Permissions-Policy "geolocation=(), microphone=()"
+Header set Content-Security-Policy "script-src 'self';"
+Header set Referrer-Policy "unsafe-url"

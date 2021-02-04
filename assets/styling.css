@@ -1,0 +1,149 @@
+/*color schemes taken from:
+https://www.schemecolor.com/beautiful-light-colors.php
+https://www.schemecolor.com/vintage-tones.php
+*/
+body {
+ background-color: #ececec;
+ background-image: url('grey_bkg.web'), url('grey_bkg.jpg');
+ background-repeat: repeat;
+ background-size: 100% auto;
+ font-family: sans-serif;
+ font-size: 14px;
+ color: #212121;
+ margin: auto;
+ height: 100%;
+}
+
+span {
+ color: #DE7A77;
+ font-weight: bold;
+}
+
+a:hover {
+ color: #212121;
+ text-decoration: none;
+}
+
+h1 {
+ text-decoration: underline;
+}
+
+h1,
+h2 {
+ text-align: center;
+}
+
+.content {
+ margin: 0 auto;
+ width: 60%;
+}
+
+section {
+ width: 100%;
+ margin-bottom: 2em;
+}
+
+.half_inline {
+ width: 50%;
+ float: left;
+}
+
+.validator_icon {
+  width:88px;
+  height:31px;
+}
+
+.canvas {
+ width: 40%;
+ background-color: white;
+ padding: 8px;
+ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+ display: block;
+ margin: auto;
+}
+
+.canvas figcaption {
+ text-align: center;
+}
+
+.canvas img {
+ width: 100%;
+}
+
+.vibrant {
+ color: #DE7A77;
+ font-weight: bold;
+ border-radius: 4px;
+ border-style: solid;
+ border-width: 1px;
+}
+
+.assignments {
+ width: 80%;
+ margin: auto;
+}
+
+.disabled {
+ text-decoration: none;
+ color: #212121;
+}
+
+#hobbies ul,
+#hobbies ol {
+ line-height: 1.5em;
+}
+
+#links ul {
+ list-style: none;
+ line-height: 1.5em;
+}
+
+section h2 {
+ border-bottom: 2px solid #57758F;
+}
+
+.assignments th {
+ text-align: center;
+ width: 100%;
+}
+
+.assignments td {
+ line-height: 2em;
+ padding: 0 4px 0 4px;
+}
+
+.assignments thead th {
+ text-align: left;
+ background-color: #FEF8DD;
+}
+
+.assignments tbody th {
+ background-color: #FFE7C7;
+}
+
+.assignments thead th:first-child {
+ width: 10%;
+}
+
+.assignments thead th:nth-child(2) {
+ width: 50%;
+}
+
+.assignments thead th:nth-child(3) {
+ width: 40%;
+}
+
+.assignments tbody tr:nth-child(even) {
+ background: #E1F8DC
+}
+
+.assignments tbody tr:nth-child(odd) {
+ background: #CAF1DE
+}
+
+table {
+ border: 0;
+ font-size: 12px;
+ font-weight: bold;
+ border-collapse: collapse;
+}
